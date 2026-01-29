@@ -34,8 +34,9 @@ The primary objective of this project is to analyze how goods are moved across A
 ### Setup Instructions
 
 1. **Clone the repository**:
-git clone https://github.com/mynameisnajaf/N-qliyyat-sektorunda-y-k-da-nmas-EDA.git
-cd N-qliyyat-sektorunda-y-k-da-nmas-EDA
+   git clone https://github.com/mynameisnajaf/N-qliyyat-sektorunda-y-k-da-nmas-EDA.git
+
+   cd N-qliyyat-sektorunda-y-k-da-nmas-EDA
 
 2. **Install dependencies**:
 pip install pandas matplotlib seaborn plotly numpy
@@ -55,15 +56,19 @@ jupyter notebook idda-eda.ipynb
 
 ## 🏗️ Project Structure
 
-.
 ├── idda-eda.ipynb           # Main analysis notebook with all steps & graphs
+
+├── idda-eda.html
+
 ├── pyproject.toml           # Project metadata and dependencies
+
 ├── README.md                # Project documentation
+
 └── nqliyyat_sektorunda_yuk_danmas__min_ton_20250424140850.csv  # Raw freight transportation dataset
 
 ## 📝 License
 
-This project is for educational and analytical purposes. Data is sourced from public portals; please credit the [IDDA Open Data Portal](https://opendata.e-gov.az) when sharing results.
+This project is for educational and analytical purposes. Data is sourced from public portals; please credit the [IDDA Open Data Portal](https://opendata.az) when sharing results.
 
 ---
 
