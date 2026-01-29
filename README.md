@@ -1,50 +1,50 @@
-🚛 Nəqliyyat sektorunda yük daşınması - EDA
+# 🚛 Nəqliyyat sektorunda yük daşınması - EDA
+
 A comprehensive Exploratory Data Analysis (EDA) of freight transportation trends in Azerbaijan, covering the period from 1995 to 2023. This project visualizes the growth, structural shifts, and modal distribution of the logistics sector using historical data.
-📊 Project Overview
+
+## 📊 Project Overview
+
 The primary objective of this project is to analyze how goods are moved across Azerbaijan's transport corridors. By examining different transport modes (Road, Rail, Sea, Pipeline, and Air), we can identify economic patterns and infrastructure development milestones.
-Key Analysis Steps:
 
-Data Transformation: Converting wide-format historical data into a tidy "long" format for time-series analysis.
-Trend Identification: Tracking the growth of total freight volume over 28 years.
-Distribution Analysis: Comparing the market share of different transport modes in the latest available year.
-Structural Shifts: Using Stacked Area Charts to visualize how the "logistics mix" has evolved.
-Interactive Exploration: Multi-line Plotly charts for granular year-over-year comparisons.
-Intensity Mapping: Normalizing data via heatmaps to find the historical "peak momentum" for each transport mode.
+### Key Analysis Steps:
+- **Data Transformation**: Converting wide-format historical data into a tidy "long" format for time-series analysis.
+- **Trend Identification**: Tracking the growth of total freight volume over 28 years.
+- **Distribution Analysis**: Comparing the market share of different transport modes in the latest available year.
+- **Structural Shifts**: Using Stacked Area Charts to visualize how the "logistics mix" has evolved.
+- **Interactive Exploration**: Multi-line Plotly charts for granular year-over-year comparisons.
+- **Intensity Mapping**: Normalizing data via heatmaps to find the historical "peak momentum" for each transport mode.
 
-📂 Dataset Details
+## 📂 Dataset Details
 
-Source: IDDA Open Data Portal (Azerbaijan)
-Unit of Measurement: Thousand tons
-Transport Modes Included:
+- **Source**: [IDDA Open Data Portal](https://opendata.e-gov.az/az/dataset/neqliyyat-sektorunda-yuk-dasinmasi) (Azerbaijan)
+- **Unit of Measurement**: Thousand tons
+- **Transport Modes Included**:
+  - Railway (Dəmir yolu)
+  - Sea (Dəniz)
+  - Air (Hava)
+  - Road (Avtomobil)
+  - Pipeline (Boru kəməri)
 
-Railway (Dəmir yolu)
-Sea (Dəniz)
-Air (Hava)
-Road (Avtomobil)
-Pipeline (Boru kəməri)
+## 🛠️ Installation & Setup
 
+### Prerequisites
+- **Python**: 3.13 or higher
+- **Data File**: Ensure `nqliyyat_sektorunda_yuk_danmas__min_ton_20250424140850.csv` is in the project root
 
+### Setup Instructions
 
-🛠️ Installation & Setup
-Prerequisites
-
-Python: 3.13 or higher
-Data File: Ensure nqliyyat_sektorunda_yuk_danmas__min_ton_20250424140850.csv is in the project root
-
-Setup Instructions
-
-Clone the repository:
-
-bashgit clone https://github.com/mynameisnajaf/N-qliyyat-sektorunda-y-k-da-nmas-EDA.git
+1. **Clone the repository**:
+git clone https://github.com/mynameisnajaf/N-qliyyat-sektorunda-y-k-da-nmas-EDA.git
 cd N-qliyyat-sektorunda-y-k-da-nmas-EDA
 
-Install dependencies:
+2. **Install dependencies**:
+pip install pandas matplotlib seaborn plotly numpy
 
-bashpip install pandas matplotlib seaborn plotly numpy
-🚀 Usage
+## 🚀 Usage
+
 Open the Jupyter Notebook to view the analysis and interactive visualizations:
-bashjupyter notebook idda-eda.ipynb
-```
+
+jupyter notebook idda-eda.ipynb
 
 ## 📈 Key Visualizations & Findings
 
@@ -54,13 +54,17 @@ bashjupyter notebook idda-eda.ipynb
 - **Peak Identification**: The analysis pinpoints the specific historical year of maximum logistics output.
 
 ## 🏗️ Project Structure
-```
+
 .
 ├── idda-eda.ipynb           # Main analysis notebook with all steps & graphs
 ├── pyproject.toml           # Project metadata and dependencies
 ├── README.md                # Project documentation
 └── nqliyyat_sektorunda_yuk_danmas__min_ton_20250424140850.csv  # Raw freight transportation dataset
-📝 License
-This project is for educational and analytical purposes. Data is sourced from public portals; please credit the IDDA Open Data Portal when sharing results.
 
-Author: @mynameisnajaf
+## 📝 License
+
+This project is for educational and analytical purposes. Data is sourced from public portals; please credit the [IDDA Open Data Portal](https://opendata.e-gov.az) when sharing results.
+
+---
+
+**Author**: [@mynameisnajaf](https://github.com/mynameisnajaf)
