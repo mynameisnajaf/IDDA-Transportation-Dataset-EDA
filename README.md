@@ -1,0 +1,1 @@
+# N-qliyyat-sektorunda-y-k-da-nmas-EDA
